@@ -1,0 +1,40 @@
+html,body{
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 60%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-auto-rows: 50px;
+    gap: 10px 10px;
+    padding: 15px;
+}
+.box{
+    background-size: cover;
+    background-position: center center;
+}
+.box:nth-child(1){
+    grid-row: 2/3;
+}
+.box:nth-child(2){
+    background-color: orange;
+    grid-row: 5/14;
+    width: 25%;
+}
+.box:nth-child(3){
+    grid-column: 2/4;
+    grid-row: 1/10;
+    background-image: url('https://imgs.search.brave.com/8K1VYiChL5odWf-Z4VAPKobkey9e9p_6Y6xE5Bn2wtk/rs:fit:509:338:1/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vcGhvdG9z/L3dvcmtpbmctb24t/ZG9jdW1lbnRzLXBp/Y3R1cmUtaWQ1MzIx/NTQ2OTc_az02Jm09/NTMyMTU0Njk3JnM9/MTcwNjY3YSZ3PTAm/aD1ualFiQnc1S01P/U1J1V0V3NGd6elUz/YklHaEh3TTR1ZWVR/YmxuQkpwc0dnPQ');
+}
+.box:nth-child(4){
+    grid-column: 2/4;
+    text-align: center;
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: end;
+}

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <style>
+        .links{
+            text-align: center;
+        }
+        a{
+            color: lightBlue;
+            padding-left: 20px;
+        }
+        .firstDiv{
+            margin-top: 10px;
+            
+        }
+        .firstImage{          
+            width: 100%;
+            height: 300px;
+            border: 3px solid rgb(117, 117, 220);
+        }
+        .secondDivP{
+            text-align: center;
+            font-size: 32px;
+        }
+        .thirdDivInDiv{
+            width: 49%;
+            float: left;
+        }
+        .thirdDivInDiv2{
+            width: 49%;
+            float: right;
+        }
+        .tableDiv{
+            width: 49%;
+            margin-top: 50px;
+            float: left;
+        }
+        table tr th{
+           border-collapse: collapse;
+           border: 2px solid rgba(128, 128, 128, 0.741);
+           padding: 10px;
+           background-color: rgba(128, 128, 128, 0.248); 
+        }
+        table tr td{
+            border-collapse: collapse;
+            border: 2px solid rgba(128, 128, 128, 0.741);
+            padding: 10px; 
+            
+        }
+        table{
+            border: 2px solid rgba(128, 128, 128, 0.741);
+            width: 100%;
+            border-collapse: collapse; 
+            text-align: center; 
+        }
+        .secondTableDiv{
+            width: 49%;
+            margin-top: 50px;
+            float: right;
+        }
+    </style>
+</head>
+<body>
+    <div class="links">
+    <a href="/">Начало</a>
+    <a href="/secondPage.html">За нас</a>
+    </div>
+    <div class="firstDiv">
+        <img class="firstImage" src="https://imgs.search.brave.com/CkVD2cbRQD9cGjYIjlD9sl6DjUVsX1qam0-wXzJezK0/rs:fit:844:225:1/g:ce/aHR0cHM6Ly90c2U0/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5x/bzl2ek5CczFCRDA0/VkcyZnhqR2RnSGFF/SyZwaWQ9QXBp">
+    </div>
+    <div>
+        <p class="secondDivP">Това е началната страница</p>
+    </div>
+    <div class="thirdDiv">
+        <div class="thirdDivInDiv">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt obcaecati consequatur, reiciendis beatae rem debitis quasi iste. Reprehenderit sunt quo, itaque quam labore a quas molestias repellat voluptate quisquam minus?
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt obcaecati consequatur, reiciendis beatae rem debitis quasi iste. Reprehenderit sunt quo, itaque quam labore a quas molestias repellat voluptate quisquam minus?
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt obcaecati consequatur, reiciendis beatae rem debitis quasi iste. Reprehenderit sunt quo, itaque quam labore a quas molestias repellat voluptate quisquam minus?
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt obcaecati consequatur, reiciendis beatae rem debitis quasi iste. Reprehenderit sunt quo, itaque quam labore a quas molestias repellat voluptate quisquam minus?
+            </p>
+        </div>
+        <div class="thirdDivInDiv2">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi quae quia dolores facere, aliquid distinctio officia ipsum, enim fugit expedita ipsam nostrum consequuntur voluptatum beatae corporis numquam! Voluptatibus, repellendus debitis?
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt obcaecati consequatur, reiciendis beatae rem debitis quasi iste. Reprehenderit sunt quo, itaque quam labore a quas molestias repellat voluptate quisquam minus?
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt obcaecati consequatur, reiciendis beatae rem debitis quasi iste. Reprehenderit sunt quo, itaque quam labore a quas molestias repellat voluptate quisquam minus?
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt obcaecati consequatur, reiciendis beatae rem debitis quasi iste. Reprehenderit sunt quo, itaque quam labore a quas molestias repellat voluptate quisquam minus?
+            </p>
+        </div>
+    </div>
+    <div style="clear:both"></div>
+    <div>
+        <div class="tableDiv">
+    <table class="firstTable">
+        <tr>
+            <th>Име</th>
+            <th>Фамилия</th>
+            <th>Курс</th>
+        </tr>
+        <tr>
+            <td>Георги</td>
+            <td>Георгиев</td>
+            <td>C#</td>
+        </tr>
+        <tr>
+            <td>Петър</td>
+            <td>Петров</td>
+            <td>Java</td>
+        </tr>
+        <tr>
+            <td colspan="3">Това е обединена клетка</td>
+            
+        </tr>
+        <tr>
+            <td>Траян</td>
+            <td>Георгиев</td>
+            <td>PHP</td>
+        </tr>
+    </table>
+        </div>
+        <div class="secondTableDiv">
+            <table>
+                <tr>
+                    <th>Домашна</th>
+                    <th>Крайна дата</th>
+                    <th>Брой</th>
+                </tr>
+                <tr>
+                    <td>C#</td>
+                    <td>02-14-2022</td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td>PHP</td>
+                    <td>02-14-2022</td>
+                    <td>6</td>
+                </tr>
+                <tr>
+                    <td>Java</td>
+                    <td>02-14-2022</td>
+                    <td>7</td>
+                </tr>
+                <tr>
+                    <td>React</td>
+                    <td>02-14-2022</td>
+                    <td>8</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div style="clear:both"></div>
+</body>
+</html>

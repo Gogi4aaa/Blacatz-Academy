@@ -1,0 +1,22 @@
+.menu{
+        width: 100%;
+    background-color: grey;
+}
+ul{
+    list-style-type: none; 
+    display: flex;
+    justify-content: center;
+}
+ul li{
+    text-decoration: none;
+    margin-right: 3rem;
+}
+ul li a{
+    color: green;
+    font-size: 1.4rem;
+    text-decoration: none;
+}
+ul li a:hover{
+    cursor: pointer;
+    color: lightblue;
+}

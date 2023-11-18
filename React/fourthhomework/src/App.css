@@ -1,0 +1,16 @@
+.all-graphics{
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 5rem;
+  flex-wrap: wrap;
+}
+.first-second-graphics{
+  display: flex;
+  justify-content: space-between;
+  width: 63%;
+}
+.third-graphic{
+  margin-top: 2rem;
+  width: 63%;
+}

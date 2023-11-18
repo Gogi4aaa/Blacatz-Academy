@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <style>
+            body {
+                background: lightblue;
+            }
+            @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+            :root {
+                --main-gradient: linear-gradient(to right, #b76cd4, #4c3bb7);
+            }
+
+            .container {
+                width: 80%;
+                margin: 0 auto;
+            }
+
+            .box-container {
+                display: flex;
+                justify-content: space-between;
+            }
+
+            .box, .main-button {
+                font-family: 'Roboto', sans-serif;
+            }
+
+            .box {
+                width: 30%;
+                color: white;
+                position: relative;
+            }
+
+            .box:hover {
+                cursor: pointer;
+                transform: scale(1.1);
+            }
+
+            .box ul {
+                list-style-type: none;
+            }
+
+            .box-header {
+                background: var(--main-gradient);
+                padding: 4rem 0.5rem;
+                border-top-right-radius: 1.5rem;
+                border-top-left-radius: 1.5rem;
+                box-shadow: 0px 0px 3px black;
+            }
+
+            .plan {
+                margin-bottom: 1rem;
+            }
+
+            .plan, .price {
+                text-align: center;
+            }
+
+            .price span {
+                font-size: 2rem;
+            }
+
+            .box-footer {
+                box-shadow: 0px 0px 3px black;
+                padding: 1.2rem;
+                border-bottom-left-radius: 1.5rem;
+                border-bottom-right-radius: 1.5rem;
+                background: white;
+                text-align: center;
+            }
+
+            .main-button {
+                border: unset;
+                padding: 0.5rem 1.7rem;
+                background: var(--main-gradient);
+                color: white;
+                border-radius: 1.5rem;
+            }
+
+            .main-button:hover {
+                cursor: pointer;
+                opacity: 0.7;
+            }
+
+           
+
+            .recommended {
+                background: white;
+                color: black;
+                width: 105%;
+                position: absolute;
+                top: 2rem;
+                text-align: center;
+                padding: 0.2rem;
+                left: -2.5%;
+            }
+
+            @media (max-width: 1200px) {
+                .box-container {
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                }
+
+                .container {
+                    width: 90%;
+                }
+
+                .box {
+                    width: 45%;
+                    margin-bottom: 1rem;
+                }
+
+                .box:nth-child(1) {
+                    margin-right: 5%;
+                }
+            }
+
+            @media (max-width: 768px) {
+                .box-container {
+                    flex-direction: column;
+                }
+
+                .container {
+                    width: 90%;
+                }
+
+                .box {
+                    width: 100%;
+                    margin-bottom: 1rem;
+                }
+            }
+
+            
+        </style>
+    </head>
+    <body>
+        <br/><br/><br/>
+        <div class="container box-container">
+            <!-- BOX  -->
+            <div class="box">
+                <div class="box-header">
+                    <div class="plan">MID</div>
+                    <div class="price">
+                        <span>15$</span> per month
+                    </div>
+                    <ul>
+                        <li>
+                            <i class="fa fa-check"></i> 
+                            20 GB Storage 
+                        </li>
+                        <li> 
+                            <i class="fa fa-check"></i> 
+                            40 GB Bandwith 
+                        </li>
+                        <li> 
+                            <i class="fa fa-check"></i> 
+                            1 Domain 
+                        </li>
+                    </ul>
+                </div>
+                <div class="box-footer">
+                    <button class="main-button">
+                        Buy now
+                    </button>
+                </div>
+            </div>
+            <!-- BOX END -->
+
+            <!-- BOX  -->
+            <div class="box">
+                <div class="box-header">
+                    <div class="recommended">RECOMMENDED</div>
+                    <div class="plan">MID</div>
+                    <div class="price">
+                        <span>15$</span> per month
+                    </div>
+                    <ul>
+                        <li>
+                            <i class="fa fa-check"></i> 
+                            20 GB Storage 
+                        </li>
+                        <li> 
+                            <i class="fa fa-check"></i> 
+                            40 GB Bandwith 
+                        </li>
+                        <li> 
+                            <i class="fa fa-check"></i> 
+                            1 Domain 
+                        </li>
+                    </ul>
+                </div>
+                <div class="box-footer">
+                    <button class="main-button">
+                        Buy now
+                    </button>
+                </div>
+            </div>
+            <!-- BOX END -->
+
+            <!-- BOX  -->
+            <div class="box">
+                <div class="box-header">
+                    <div class="plan">MID</div>
+                    <div class="price">
+                        <span>15$</span> per month
+                    </div>
+                    <ul>
+                        <li>
+                            <i class="fa fa-check"></i> 
+                            20 GB Storage 
+                        </li>
+                        <li> 
+                            <i class="fa fa-check"></i> 
+                            40 GB Bandwith 
+                        </li>
+                        <li> 
+                            <i class="fa fa-check"></i> 
+                            1 Domain 
+                        </li>
+                    </ul>
+                </div>
+                <div class="box-footer">
+                    <button class="main-button">
+                        Buy now
+                    </button>
+                </div>
+            </div>
+            <!-- BOX END -->
+        </div>
+    </body>
+</html>

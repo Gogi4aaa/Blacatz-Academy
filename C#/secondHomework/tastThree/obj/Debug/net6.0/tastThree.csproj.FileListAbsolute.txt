@@ -1,0 +1,15 @@
+D:\blacatz academy\C#\secondHomework\tastThree\bin\Debug\net6.0\tastThree.exe
+D:\blacatz academy\C#\secondHomework\tastThree\bin\Debug\net6.0\tastThree.deps.json
+D:\blacatz academy\C#\secondHomework\tastThree\bin\Debug\net6.0\tastThree.runtimeconfig.json
+D:\blacatz academy\C#\secondHomework\tastThree\bin\Debug\net6.0\tastThree.dll
+D:\blacatz academy\C#\secondHomework\tastThree\bin\Debug\net6.0\tastThree.pdb
+D:\blacatz academy\C#\secondHomework\tastThree\obj\Debug\net6.0\tastThree.csproj.AssemblyReference.cache
+D:\blacatz academy\C#\secondHomework\tastThree\obj\Debug\net6.0\tastThree.GeneratedMSBuildEditorConfig.editorconfig
+D:\blacatz academy\C#\secondHomework\tastThree\obj\Debug\net6.0\tastThree.AssemblyInfoInputs.cache
+D:\blacatz academy\C#\secondHomework\tastThree\obj\Debug\net6.0\tastThree.AssemblyInfo.cs
+D:\blacatz academy\C#\secondHomework\tastThree\obj\Debug\net6.0\tastThree.csproj.CoreCompileInputs.cache
+D:\blacatz academy\C#\secondHomework\tastThree\obj\Debug\net6.0\tastThree.dll
+D:\blacatz academy\C#\secondHomework\tastThree\obj\Debug\net6.0\refint\tastThree.dll
+D:\blacatz academy\C#\secondHomework\tastThree\obj\Debug\net6.0\tastThree.pdb
+D:\blacatz academy\C#\secondHomework\tastThree\obj\Debug\net6.0\tastThree.genruntimeconfig.cache
+D:\blacatz academy\C#\secondHomework\tastThree\obj\Debug\net6.0\ref\tastThree.dll

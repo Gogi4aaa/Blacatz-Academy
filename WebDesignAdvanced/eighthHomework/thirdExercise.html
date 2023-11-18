@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+</head>
+<body>
+    <div>
+        <table class="table table-bordered" id="table">
+            <tr>
+                <td>Математика</td>
+                <td><input class="input" type="number"></td>
+                <td><button class="btn btn-success button" id="button">+</button></td>
+            </tr>
+            <tr>
+                <td>Български Език</td>
+                <td><input class="input" type="number"></td>
+                <td><button class="btn btn-success button">+</button></td>
+            </tr>
+            <tr>
+                <td>Английски език</td>
+                <td><input class="input" type="number"></td>
+                <td><button class="btn btn-success button">+</button></td>
+            </tr>
+        </table>
+    </div>
+    <div class="d-flex justify-content-center">
+        <button class="btn btn-primary" id="calculate-btn">Calculate</button>
+    </div>
+    <p class="text-center fw-bold mt-3" id="output"></p>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+    <script>
+        $(function(){
+            let subjects = ["Немски език", "История", "Георграфия","Биология", "Испански език"]
+            let counter = 0;
+            $('body').on("click", ".button", function(){
+                let html = "<tr>"               
+                    html += `<td>${subjects[counter]}</td>
+                            <td><input class="input" type="number"></td>
+                            <td><button class="btn btn-success button">+</button></td>`
+                    html += "</tr>"
+                    $("#table").append(html)
+                    counter++
+                    if(counter >=5) {
+                        counter = 0;
+                    }              
+            })
+
+            $('body').on("click", "#calculate-btn", function(){
+                let input = $('.input');
+                let sum = 0;
+                for (let i = 0; i <input.length; i++) {
+                    sum += parseInt($(input[i]).val());
+                }
+                let finalsum = sum / input.length;
+                $("#output").html(finalsum);
+            })
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+D:\blacatz academy\C#\ThirdHomework\2.taskTwo\bin\Debug\net6.0\2.taskTwo.exe
+D:\blacatz academy\C#\ThirdHomework\2.taskTwo\bin\Debug\net6.0\2.taskTwo.deps.json
+D:\blacatz academy\C#\ThirdHomework\2.taskTwo\bin\Debug\net6.0\2.taskTwo.runtimeconfig.json
+D:\blacatz academy\C#\ThirdHomework\2.taskTwo\bin\Debug\net6.0\2.taskTwo.dll
+D:\blacatz academy\C#\ThirdHomework\2.taskTwo\bin\Debug\net6.0\2.taskTwo.pdb
+D:\blacatz academy\C#\ThirdHomework\2.taskTwo\obj\Debug\net6.0\2.taskTwo.csproj.AssemblyReference.cache
+D:\blacatz academy\C#\ThirdHomework\2.taskTwo\obj\Debug\net6.0\2.taskTwo.GeneratedMSBuildEditorConfig.editorconfig
+D:\blacatz academy\C#\ThirdHomework\2.taskTwo\obj\Debug\net6.0\2.taskTwo.AssemblyInfoInputs.cache
+D:\blacatz academy\C#\ThirdHomework\2.taskTwo\obj\Debug\net6.0\2.taskTwo.AssemblyInfo.cs
+D:\blacatz academy\C#\ThirdHomework\2.taskTwo\obj\Debug\net6.0\2.taskTwo.csproj.CoreCompileInputs.cache
+D:\blacatz academy\C#\ThirdHomework\2.taskTwo\obj\Debug\net6.0\2.taskTwo.dll
+D:\blacatz academy\C#\ThirdHomework\2.taskTwo\obj\Debug\net6.0\refint\2.taskTwo.dll
+D:\blacatz academy\C#\ThirdHomework\2.taskTwo\obj\Debug\net6.0\2.taskTwo.pdb
+D:\blacatz academy\C#\ThirdHomework\2.taskTwo\obj\Debug\net6.0\2.taskTwo.genruntimeconfig.cache
+D:\blacatz academy\C#\ThirdHomework\2.taskTwo\obj\Debug\net6.0\ref\2.taskTwo.dll

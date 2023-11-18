@@ -1,0 +1,14 @@
+D:\blacatz academy\C#\FinalExam\03\bin\Debug\netcoreapp3.1\03.exe
+D:\blacatz academy\C#\FinalExam\03\bin\Debug\netcoreapp3.1\03.deps.json
+D:\blacatz academy\C#\FinalExam\03\bin\Debug\netcoreapp3.1\03.runtimeconfig.json
+D:\blacatz academy\C#\FinalExam\03\bin\Debug\netcoreapp3.1\03.runtimeconfig.dev.json
+D:\blacatz academy\C#\FinalExam\03\bin\Debug\netcoreapp3.1\03.dll
+D:\blacatz academy\C#\FinalExam\03\bin\Debug\netcoreapp3.1\03.pdb
+D:\blacatz academy\C#\FinalExam\03\obj\Debug\netcoreapp3.1\03.csproj.AssemblyReference.cache
+D:\blacatz academy\C#\FinalExam\03\obj\Debug\netcoreapp3.1\03.GeneratedMSBuildEditorConfig.editorconfig
+D:\blacatz academy\C#\FinalExam\03\obj\Debug\netcoreapp3.1\03.AssemblyInfoInputs.cache
+D:\blacatz academy\C#\FinalExam\03\obj\Debug\netcoreapp3.1\03.AssemblyInfo.cs
+D:\blacatz academy\C#\FinalExam\03\obj\Debug\netcoreapp3.1\03.csproj.CoreCompileInputs.cache
+D:\blacatz academy\C#\FinalExam\03\obj\Debug\netcoreapp3.1\03.dll
+D:\blacatz academy\C#\FinalExam\03\obj\Debug\netcoreapp3.1\03.pdb
+D:\blacatz academy\C#\FinalExam\03\obj\Debug\netcoreapp3.1\03.genruntimeconfig.cache

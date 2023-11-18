@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+    <style>
+        input{
+            display: block;
+        }
+        p{
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <form action="" id="form">
+        <label for="">Username</label>
+        <input type="text" id="username">
+        <p id="usernameError"></p>
+        <label for="">Password</label>
+        <input type="password" id="password">
+        <p id="passwordError"></p>
+        <label for="">PasswordConfirm</label>
+        <input type="password" id="passwordConfirm">
+        <p id="passwordConfirmError"></p>
+        <button id="btn" type="button">Send</button>
+    </form>
+    <script>
+        $(function(){
+            let username = $("#username");
+            let password = $("#password");
+            let passwordConfirm = $("#passwordConfirm");
+            let usernameError = $("#usernameError");
+            let passwordError = $("#passwordError");
+            let passwordConfirmError = $("#passwordConfirmError");
+            let btn = $("#btn");
+            
+            
+            btn.click(function(){
+            let hasErrors = false;
+            
+            if(username.val().length < 6 || username.val().length > 16){
+                usernameError.html("Invalid username! [6;16]")
+                usernameError.css("color", "red");
+                hasErrors = true;
+            }
+            else{
+                usernameError.html("");
+            }
+            if(password.val().length < 6 || password.val().length > 32){
+                passwordError.html("Invalid password! [6;32]")
+                passwordError.css("color", "red");
+                hasErrors = true;
+            }
+            else{
+                passwordError.html("");
+            }
+            if(passwordConfirm.val() != password.val() || passwordConfirm.val().length < 6){
+                passwordConfirmError.html("Password doesn't match!")
+                passwordConfirmError.css("color", "red");
+                hasErrors = true;
+            }
+            else{
+                passwordConfirmError.html("");
+            }
+
+            if(hasErrors == false){
+                $("#form").submit();
+            }
+            })
+            
+        })
+    </script>
+</body>
+</html>

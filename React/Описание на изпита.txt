@@ -1,0 +1,5 @@
+Последна задача на изпита: https://github.com/Gogi4aaa/Blacatz-Final-Exam-Final-Exercise
+Задачи на изпита: https://github.com/Gogi4aaa/finalExamExercise
+Задачи от домашните: https://github.com/Gogi4aaa/Blacatz-Academy
+Последната задача първо се стартира базата на localhost:3000
+А приложението на localhost:3001

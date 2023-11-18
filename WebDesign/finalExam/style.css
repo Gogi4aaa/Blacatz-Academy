@@ -1,0 +1,289 @@
+html, body, ul, li, a, p, h1, h2, h3, h4, h5, h6{
+    padding: 0;
+    margin: 0;
+}
+html,body{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Rubik', sans-serif;
+}
+.clear-fix{
+    clear: both;
+}
+.btn{
+    margin-top: 30px;
+    background: #188755;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+}
+.btn:hover{
+    opacity: 0.7;
+}
+.text-shadow{
+    text-shadow: 1px 1px 1px black;
+}
+/* HEADER */
+.header{
+    background: url('exam-materials/header.jpg');
+    background-size: cover;
+    height: 800px;
+    width: 100%;
+    background-position: center center;
+}
+.h-menu{
+    margin: 0 auto;
+    width: 40%;
+    background:rgba(83,88,106,0.5);
+    border-radius: 18px;
+}
+.h-menu ul{
+    text-align: center;
+    background: transparent;
+}
+.h-menu ul li{
+    display: inline-block;
+    padding: 10px 6px;
+}
+.h-menu ul li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+.h-menu ul li a:hover{
+    color: orange;
+}
+.header .h-moving{
+    padding-top: 10px;
+}
+.h-text{
+    margin: 0 auto;
+    width: 50%;
+    background:rgba(16,34,41,0.6);
+    border-radius: 25px;
+    text-align: center;
+    margin-top: 200px;
+    padding: 30px 80px;
+    color: white;
+}
+.h-text h1{
+    font-size: 55px;
+}
+.h-text p{
+    padding-top: 7px;
+    font-size: 23px;
+}
+/* HEADER END */
+
+/* SECOND-SLIDE */
+.second-slide{
+    background: white;
+    padding: 70px 0px; 
+    text-align: center;
+}
+.second-slide .center{
+    margin: 0 auto;
+    width: 45%;
+}
+.second-slide .center h2{
+    color: #258854 ;
+    font-size: 30   px;
+}
+.second-slide .center p{
+    padding-top: 10px;
+    color: #b3b3b5;
+}
+/* SECOND SLIDE END */
+
+/* THIRD SLIDE */
+.third-slide{
+    background: #188755;
+    text-align: center;
+    padding: 70px 0px;
+    color: white;
+    text-transform: uppercase;
+}
+.third-slide .center{
+    margin: 0 auto;
+    width: 95%;
+}
+.third-slide p{
+    font-size: 15px;
+}
+.third-slide h2{
+    font-size: 40px;
+}
+.ts-info{
+    padding-top: 35px;
+}
+.third-slide .circle{
+    background: white;
+    border-radius: 50%;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
+.third-slide .circle:hover{
+    opacity: 0.7;
+}
+.third-slide .circle:nth-child(2),.third-slide .circle:nth-child(3),.third-slide .circle:nth-child(4){
+    margin-left: 137px;
+}
+.third-slide .circle i{
+    color:#3b91b6;
+    font-size: 30px;
+    padding-top: 35px;
+    text-align: center;
+}
+.circle-text{
+    text-align:center;
+    padding-top: 20px;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+.circle-text span:hover{
+    color: orange;
+}
+.circle-text span:nth-child(1){
+    margin-left: 15px;
+}
+.circle-text span:nth-child(2){
+    margin-left: 100px;
+}
+.circle-text span:nth-child(3){
+    margin-left: 50px;
+}
+.circle-text span:nth-child(4){
+   margin-left: 90px
+}
+/* THIRD SLIDE END */
+
+/* FOURTH SLIDE */
+.fourth-slide{
+    background: url('/exam-materials/beach.jpg');
+    background-size: cover;
+    min-height: 250px;
+    width: 100%;
+    background-position: center center;
+    text-align: center;
+    padding-top: 350px;
+    color: white;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+/* FOURTH SLIDE END */
+
+/* FIFTH SLIDE */
+.fifth-slide{
+    background:white;
+    text-align: center;
+    color: #188755;
+    padding: 70px 0;
+}
+.fifth-slide h2{
+    padding-bottom: 30px;
+    font-size: 35px;
+}
+.fifth-slide .center{
+    margin: 0 auto;
+    width: 80%;
+}
+.p-left{
+    background: url('/exam-materials/1.jpg');
+    background-position: center center;
+    background-size: cover;
+    float: left;
+    width: 50%;
+    height: 250px;
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.p-left:nth-child(2){
+    background: url('/exam-materials/2.jpg');
+    background-position: center center;
+    background-size: cover;
+}
+.p-left:nth-child(3){
+    background: url('/exam-materials/3.jpg');
+    background-position: center center;
+    background-size: cover;
+}
+.p-left:nth-child(4){
+    background: url('/exam-materials/4.jpg');
+    background-position: center center;
+    background-size: cover;
+}
+.p-left .p-center{
+    margin: 0 auto;
+    width: 85%;
+    text-align: left;
+    padding-top: 140px;
+}
+.p-left .p-center p:nth-child(1){
+    text-transform: uppercase;
+}
+.p-left .p-center p:nth-child(2){
+    padding-top: 15px;
+    font-size: 22px;
+    font-family: sans-serif;
+}
+/* FIFTH SLIDE END */
+
+/* SIXTH SLIDE */
+.sixth-slide{
+    background:#188755;
+    padding: 70px 0px;
+    text-align: center;
+    color: white;
+    font-size: 21px;
+}
+.sixth-slide h2{
+    padding-top: 30px;
+}
+.sixth-slide button{
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 3px;
+    background: white;
+    border: none;
+    margin-left: 10px;
+}
+.sixth-slide button:hover{
+    opacity: 0.7;
+}
+/* SIXTH SLIDE END */
+
+/* SEVENTH SLIDE */
+.seventh-slide{
+    padding: 50px 0px;
+    text-align: center;
+}
+.seventh-slide .circle{
+    background: #188755 ;
+    border-radius: 50%;
+    display: inline-block;
+    width: 65px;
+    height: 65px;
+    text-align: center; 
+}
+.seventh-slide .circle:hover{
+    opacity: 0.7;
+}
+.seventh-slide .circle:nth-child(2),.seventh-slide .circle:nth-child(3){
+    margin-left: 10px;
+}
+.seventh-slide .circle i{
+    padding-top: 20px;
+    color: white;
+    font-size: 25px;
+}
+.seventh-slide p{
+    padding-top: 50px;
+    color: #8999a3;
+    font-size: 15px;
+}
+/* SEVENTH SLIDE END */

@@ -1,0 +1,15 @@
+D:\blacatz academy\C#\secondHomework\taskFIve\bin\Debug\net6.0\taskFIve.exe
+D:\blacatz academy\C#\secondHomework\taskFIve\bin\Debug\net6.0\taskFIve.deps.json
+D:\blacatz academy\C#\secondHomework\taskFIve\bin\Debug\net6.0\taskFIve.runtimeconfig.json
+D:\blacatz academy\C#\secondHomework\taskFIve\bin\Debug\net6.0\taskFIve.dll
+D:\blacatz academy\C#\secondHomework\taskFIve\bin\Debug\net6.0\taskFIve.pdb
+D:\blacatz academy\C#\secondHomework\taskFIve\obj\Debug\net6.0\taskFIve.csproj.AssemblyReference.cache
+D:\blacatz academy\C#\secondHomework\taskFIve\obj\Debug\net6.0\taskFIve.GeneratedMSBuildEditorConfig.editorconfig
+D:\blacatz academy\C#\secondHomework\taskFIve\obj\Debug\net6.0\taskFIve.AssemblyInfoInputs.cache
+D:\blacatz academy\C#\secondHomework\taskFIve\obj\Debug\net6.0\taskFIve.AssemblyInfo.cs
+D:\blacatz academy\C#\secondHomework\taskFIve\obj\Debug\net6.0\taskFIve.csproj.CoreCompileInputs.cache
+D:\blacatz academy\C#\secondHomework\taskFIve\obj\Debug\net6.0\taskFIve.dll
+D:\blacatz academy\C#\secondHomework\taskFIve\obj\Debug\net6.0\refint\taskFIve.dll
+D:\blacatz academy\C#\secondHomework\taskFIve\obj\Debug\net6.0\taskFIve.pdb
+D:\blacatz academy\C#\secondHomework\taskFIve\obj\Debug\net6.0\taskFIve.genruntimeconfig.cache
+D:\blacatz academy\C#\secondHomework\taskFIve\obj\Debug\net6.0\ref\taskFIve.dll

@@ -1,0 +1,131 @@
+html, body, ul, li, a, h1, h2, h3, p{
+    margin: 0;
+    padding: 0;
+}
+/* HEADER */
+.header{
+    background: silver;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.h-left{
+    width: 50%;
+    text-align: center;
+}
+.h-left ul li{
+    display: inline-block;
+}
+.h-left ul li:nth-child(1){
+    margin-right: 50px;
+}
+.h-left ul li:nth-child(2), .h-left ul li:nth-child(3), .h-left ul li:nth-child(4){
+    margin-left: 35px;
+}
+.h-left ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.h-right{
+    width: 50%;
+    text-align: center;
+}
+.h-right button, .c-right button, .f-left button{
+    margin-left: 20px;
+    width: 15%;
+}
+/* HEADER END */
+
+/* INTRO */
+.intro{
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+}
+.i-left{
+    margin: 0 auto;
+    width: 70%;
+}
+.i-left p{
+    margin: 10px 0;
+    
+}
+/* INTRO END */
+
+/* INFO */
+.info{
+    display: flex;
+    justify-content: space-between;
+    height: 300px;
+    flex-wrap: wrap;
+    margin:  30px auto;
+    width: 70%;
+}
+.info .box{
+    height: 200px;
+    border: 1px solid black;
+    width: 30%;
+    display: flex;
+}
+.i-text{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+/* INFO END */
+
+/* CONTACTS */
+.contacts{
+    margin: 30px auto;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 300px;
+}
+.c-left{
+    width: 40%;
+}
+.c-left .c-box{
+    width: 100%;
+    border: 1px solid black;
+    height: 250px;
+}
+.c-right{
+    width: 50%;
+}
+.c-right p{
+    margin: 20px 0;
+}
+/* CONTACTS END */
+
+/* FOOTER */
+.footer{
+    margin: 0 auto;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 300px;
+}
+.f-left{
+    width: 50%;
+}
+.f-left p{
+    margin: 20px 0;
+}
+.f-right{
+    width: 45%;
+}
+.f-right .f-box{
+    width: 100%;
+    border: 1px solid black;
+    height: 250px;
+}
+/* FOOTER END */
+

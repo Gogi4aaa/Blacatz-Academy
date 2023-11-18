@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FourthExercise</title>
+</head>
+<body>
+    <input id="num" type="text">
+    <button onclick="Calculate()">Калкулирай</button>
+    <div id="output"></div>
+    <script>
+        function Calculate(){
+            let salary = document.getElementById("num").value;
+            let sum = parseFloat(salary)
+            let text = sum - (sum * 0.23)
+            let div = document.getElementById("output");
+            div.innerHTML = text;
+        }
+        
+    </script>
+</body>
+</html>

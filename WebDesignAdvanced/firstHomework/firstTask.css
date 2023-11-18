@@ -1,0 +1,35 @@
+.all-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+    
+}
+.box{
+    display: flex;
+    background: silver;
+    margin-bottom: 40px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+}
+.w-100{
+    width: 100%;
+}
+.w-65{
+    width: 65%;
+}
+.w-30{
+    width: 30%;
+}
+@media (max-width:1024px){
+    .mobile-display-none{
+        display: none;
+    }
+    .mobile-w-100{
+        width: 100%;
+    }
+}
+    
+

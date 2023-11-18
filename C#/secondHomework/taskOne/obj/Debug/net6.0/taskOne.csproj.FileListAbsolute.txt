@@ -1,0 +1,15 @@
+D:\blacatz academy\C#\secondHomework\taskOne\bin\Debug\net6.0\taskOne.exe
+D:\blacatz academy\C#\secondHomework\taskOne\bin\Debug\net6.0\taskOne.deps.json
+D:\blacatz academy\C#\secondHomework\taskOne\bin\Debug\net6.0\taskOne.runtimeconfig.json
+D:\blacatz academy\C#\secondHomework\taskOne\bin\Debug\net6.0\taskOne.dll
+D:\blacatz academy\C#\secondHomework\taskOne\bin\Debug\net6.0\taskOne.pdb
+D:\blacatz academy\C#\secondHomework\taskOne\obj\Debug\net6.0\taskOne.csproj.AssemblyReference.cache
+D:\blacatz academy\C#\secondHomework\taskOne\obj\Debug\net6.0\taskOne.GeneratedMSBuildEditorConfig.editorconfig
+D:\blacatz academy\C#\secondHomework\taskOne\obj\Debug\net6.0\taskOne.AssemblyInfoInputs.cache
+D:\blacatz academy\C#\secondHomework\taskOne\obj\Debug\net6.0\taskOne.AssemblyInfo.cs
+D:\blacatz academy\C#\secondHomework\taskOne\obj\Debug\net6.0\taskOne.csproj.CoreCompileInputs.cache
+D:\blacatz academy\C#\secondHomework\taskOne\obj\Debug\net6.0\taskOne.dll
+D:\blacatz academy\C#\secondHomework\taskOne\obj\Debug\net6.0\refint\taskOne.dll
+D:\blacatz academy\C#\secondHomework\taskOne\obj\Debug\net6.0\taskOne.pdb
+D:\blacatz academy\C#\secondHomework\taskOne\obj\Debug\net6.0\taskOne.genruntimeconfig.cache
+D:\blacatz academy\C#\secondHomework\taskOne\obj\Debug\net6.0\ref\taskOne.dll

@@ -1,0 +1,10 @@
+td{
+    float: left;
+    width: 25%;
+}
+.radioTd{
+    width: 60%;
+}
+.buttonPadding{
+    padding-top: 20px;
+}

@@ -1,0 +1,31 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px 10px;
+    grid-auto-rows: 100px;
+}
+.box{
+    background: silver;
+}
+.box:nth-child(1){
+    grid-row: 1/4;
+}
+.box:nth-child(2){
+    grid-row: 2/5;
+    grid-column: 2/3;
+}
+.box:nth-child(3){
+    grid-column: 3;
+    grid-row: 1/4;
+}
+.box:nth-child(4){
+    grid-row: 6/9;
+    grid-column: 1;
+}
+.box:nth-child(5){
+    grid-column: 2;
+    grid-row: 5/8;
+}
+.box:nth-child(6){
+    grid-row: 6/9;
+}

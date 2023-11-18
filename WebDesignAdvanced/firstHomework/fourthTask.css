@@ -1,0 +1,30 @@
+.all{
+    display: flex;
+    justify-content: space-between;
+}
+.box{
+    width: 32%;
+    background: silver;
+    padding: 35px 10px;
+    margin-bottom: 10px;
+}
+@media (max-width:1024px){
+    .m-w-100{
+        width: 100%;
+    }
+    .m-w-47{
+        width: 47%;
+    }
+    .m-flex-wrap{
+        flex-wrap: wrap;
+    }
+}
+@media (max-width:768px){
+    .box{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        flex-wrap: nowrap;
+    }
+}
+

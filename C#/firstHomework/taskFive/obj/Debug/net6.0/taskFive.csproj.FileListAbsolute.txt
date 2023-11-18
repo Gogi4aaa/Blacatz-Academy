@@ -1,0 +1,15 @@
+D:\blacatz academy\C#\firstHomework\taskFive\bin\Debug\net6.0\taskFive.exe
+D:\blacatz academy\C#\firstHomework\taskFive\bin\Debug\net6.0\taskFive.deps.json
+D:\blacatz academy\C#\firstHomework\taskFive\bin\Debug\net6.0\taskFive.runtimeconfig.json
+D:\blacatz academy\C#\firstHomework\taskFive\bin\Debug\net6.0\taskFive.dll
+D:\blacatz academy\C#\firstHomework\taskFive\bin\Debug\net6.0\taskFive.pdb
+D:\blacatz academy\C#\firstHomework\taskFive\obj\Debug\net6.0\taskFive.csproj.AssemblyReference.cache
+D:\blacatz academy\C#\firstHomework\taskFive\obj\Debug\net6.0\taskFive.GeneratedMSBuildEditorConfig.editorconfig
+D:\blacatz academy\C#\firstHomework\taskFive\obj\Debug\net6.0\taskFive.AssemblyInfoInputs.cache
+D:\blacatz academy\C#\firstHomework\taskFive\obj\Debug\net6.0\taskFive.AssemblyInfo.cs
+D:\blacatz academy\C#\firstHomework\taskFive\obj\Debug\net6.0\taskFive.csproj.CoreCompileInputs.cache
+D:\blacatz academy\C#\firstHomework\taskFive\obj\Debug\net6.0\taskFive.dll
+D:\blacatz academy\C#\firstHomework\taskFive\obj\Debug\net6.0\refint\taskFive.dll
+D:\blacatz academy\C#\firstHomework\taskFive\obj\Debug\net6.0\taskFive.pdb
+D:\blacatz academy\C#\firstHomework\taskFive\obj\Debug\net6.0\taskFive.genruntimeconfig.cache
+D:\blacatz academy\C#\firstHomework\taskFive\obj\Debug\net6.0\ref\taskFive.dll

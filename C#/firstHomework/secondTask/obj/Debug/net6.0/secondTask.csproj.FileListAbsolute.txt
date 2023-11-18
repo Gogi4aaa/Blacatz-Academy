@@ -1,0 +1,15 @@
+D:\blacatz academy\C#\firstHomework\secondTask\bin\Debug\net6.0\secondTask.exe
+D:\blacatz academy\C#\firstHomework\secondTask\bin\Debug\net6.0\secondTask.deps.json
+D:\blacatz academy\C#\firstHomework\secondTask\bin\Debug\net6.0\secondTask.runtimeconfig.json
+D:\blacatz academy\C#\firstHomework\secondTask\bin\Debug\net6.0\secondTask.dll
+D:\blacatz academy\C#\firstHomework\secondTask\bin\Debug\net6.0\secondTask.pdb
+D:\blacatz academy\C#\firstHomework\secondTask\obj\Debug\net6.0\secondTask.csproj.AssemblyReference.cache
+D:\blacatz academy\C#\firstHomework\secondTask\obj\Debug\net6.0\secondTask.GeneratedMSBuildEditorConfig.editorconfig
+D:\blacatz academy\C#\firstHomework\secondTask\obj\Debug\net6.0\secondTask.AssemblyInfoInputs.cache
+D:\blacatz academy\C#\firstHomework\secondTask\obj\Debug\net6.0\secondTask.AssemblyInfo.cs
+D:\blacatz academy\C#\firstHomework\secondTask\obj\Debug\net6.0\secondTask.csproj.CoreCompileInputs.cache
+D:\blacatz academy\C#\firstHomework\secondTask\obj\Debug\net6.0\secondTask.dll
+D:\blacatz academy\C#\firstHomework\secondTask\obj\Debug\net6.0\refint\secondTask.dll
+D:\blacatz academy\C#\firstHomework\secondTask\obj\Debug\net6.0\secondTask.pdb
+D:\blacatz academy\C#\firstHomework\secondTask\obj\Debug\net6.0\secondTask.genruntimeconfig.cache
+D:\blacatz academy\C#\firstHomework\secondTask\obj\Debug\net6.0\ref\secondTask.dll

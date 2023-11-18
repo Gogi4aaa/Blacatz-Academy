@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" id="form">
+        <label for="">Email</label>
+        <input type="email" id="email" required>
+        <p id="emailError"></p>
+        <label for="">Password</label>
+        <input type="password" name="" id="password" required>
+        <p id="passwordError"></p>
+        <button type="button" id="btn">Submit</button>
+    </form>
+    <script>
+        let btn = document.getElementById("btn");
+        btn.addEventListener("click", function(){
+            let email = document.getElementById("email").value;
+            let password = document.getElementById("password").value;
+            let emailError = document.getElementById("emailError");
+            let passwordError = document.getElementById("passwordError");
+            emailError.innerHTML = '';
+            passwordError.innerHTML = '';
+            let hasErrors = false;
+            if(email.includes("@abv.bg") || email.includes("@gmail.com")){
+                emailError.innerHTML = '';
+            }
+            else{
+                emailError.innerHTML = 'Enter correct email1!'
+                emailError.style.color = 'red';
+                hasErrors = true;
+            }
+            if(email.length < 1 || email.length > 20){
+                emailError.innerHTML = 'Invalid data [1;20]'
+                emailError.style.color = 'red';
+                hasErrors = true;
+            }
+            if(password.length < 6){
+                passwordError.innerHTML = 'Invalid data [more than 6]'
+                passwordError.style.color = 'red';
+                hasErrors = true;
+            }
+            if(hasErrors == false){
+                document.getElementById("form").submit();
+            }
+        })
+    </script>
+</body>
+</html>

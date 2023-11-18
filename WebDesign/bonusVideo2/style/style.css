@@ -1,0 +1,189 @@
+html,body{
+    font-family: Open Sans-serif;
+}
+h1,body,ul,li,a,p,span,h1,h2,h3,h5,h6{
+    padding: 0;
+    margin: 0;
+}
+/* HEADER */
+.header{
+    height: 75px;
+    width: 100%;
+    background: #e41040;
+    position: fixed;
+    top: 0;
+}
+.h-left{
+    width: 50%;
+    float: left;
+    height: 100%;
+}
+.h-right{
+    width: 50%;
+    float: right;
+    height: 100%;
+    text-align: right;
+}
+.logo{
+    width: 100%;
+    height: 100%;
+    background: url('../images/logo.png');
+    background-size: cover;
+    background-position: center center;
+}
+.h-right button{
+    font-size: 40px;
+    border: unset;
+    background: unset;
+    margin-top: 14px;
+    color: white;
+    margin-right: 12px;
+}
+/* MENU */
+.nav{
+    width: 100%;
+    position: absolute;
+    top: 75px;
+    display: none;
+}
+.nav a{
+    display: block;
+    background-color: #e41040;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 12px;
+    text-transform: uppercase;
+    border-bottom: 1px solid white;
+
+}
+.nav a i{
+    float: right;
+}
+/* MENU END */
+/* HEADER END */
+
+/* TOP SECTION */
+.top-section{
+    background: url('../images/home-bg.jpg');
+    min-height: 500px;
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    padding: 50px;
+    box-sizing: border-box;
+    margin-top: 75px;
+}
+.top-section h1{
+    text-transform: uppercase;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    font-size: 50px;
+    margin-top: 30px;
+}
+.top-section button, #order-form button{
+    background: #e41040;
+    padding:5px 18px;
+    border: 1px solid white;
+    text-transform: uppercase;
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+    text-shadow: 1px 1px 1px black;
+}
+
+/* TOP SECTION END */
+
+/* BEST OFFERS SECTION */
+.best-offers-section{
+    padding-bottom:20px;
+}
+.best-offers-section h2{
+text-align: center;
+font-size: 23px;
+padding-top: 25px;
+}
+.best-offers-box{
+    text-align: center;
+    margin-top: 25px;
+}
+.best-offers-box img{
+    width: 65%;
+}
+.best-offers-box h5{
+    margin-top: 8px;
+    font-size: 19px;
+}
+.best-offers-box .ingredients{
+    font-size: 17px;
+    margin: 8px auto;
+}
+.best-offers-box .price{
+    color: #e41040;
+    font-weight: bold;
+    font-size: 20px;
+}
+/* BEST OFFERS SECTION END */
+
+/* ORDER SECTION */
+.order-section{
+    text-align: center;
+    min-height: 500px;
+    background: url('../images/order-section.jpg');
+    background-size: cover;
+    background-position: top center;
+    padding: 30px;
+box-sizing: border-box;
+}
+.order-section .order-section-h-small{
+    color: white;
+    font-weight: 700px;
+    text-shadow: 1px 1px 1px black;
+    font-size: 20px;
+}
+.order-section .order-section-h-big{
+    color: white;
+    font-weight: 700px;
+    text-shadow: 1px 1px 1px black;
+    font-size: 48px;
+}
+#order-form *{
+    display: block;
+    margin: 10px auto;
+}
+#order-form input, #order-form textarea{
+    border: 4px solid #e41040;
+    width: 100%;
+    min-height: 25px;
+}
+
+/* ORDER SECTION END */
+
+/* CONTACT SECTION */
+.contacts-section{
+    background: #e41040;
+    text-align: center;
+    padding: 15px;
+    color: white;
+    font-size: 17px;
+    text-shadow: 1px 1px 1px black;
+    border-bottom: 2px solid white;
+}
+.bold{
+    font-weight: 700;
+}
+/* CONTACT SECTION END */
+
+/* FOOTER ICONS */
+.footer-icons{
+    text-align: center;
+    background: #e41040;
+    padding: 15px;
+}
+.footer-icons i{
+    text-decoration: none;
+    color: white;
+    font-size: 31px;
+    margin-right: 20px;
+}
+/* FOOTER ICONS END */

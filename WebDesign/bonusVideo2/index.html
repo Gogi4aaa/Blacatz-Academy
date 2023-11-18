@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile Website - Pizza</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- HEADER -->
+    <div class="header">
+        <div class="h-left">
+            <div class="logo"></div>
+        </div>
+        <div class="h-right">
+            <button onclick="toggle()">
+            <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+        <div class="nav" id="nav">
+            <a href="">
+                <span>Начало</span>
+                <i class="fa-solid fa-caret-right"></i>
+            </a>
+            <a href="">
+                <span>Menu</span>
+                <i class="fa-solid fa-caret-right"></i>
+            </a>
+            <a href="">
+                <span>Резервации</span>
+                <i class="fa-solid fa-caret-right"></i>
+            </a>
+            <a href="">
+                <span>Начало</span>
+                <i class="fa-solid fa-caret-right"></i>
+            </a>
+            <a href="">
+                <span>Начало</span>
+                <i class="fa-solid fa-caret-right"></i>
+            </a>
+        </div>
+    </div>
+    <!-- HEADER END -->
+
+    <!-- TOP SECTION -->
+    <div class="top-section">
+        <h1>Ресторант "Дизайн"</h1>
+        <button>Поръчай</button>
+    </div>
+    <!-- TOP SECTION END -->
+
+    <!-- BEST OFFERS SECTION -->
+    <div class="best-offers-section">
+        <h2>Някои от нашите най - добри пици</h2>
+        <div class="best-offers-box">
+            <img src="/images/pizza-1.jpg" alt="">
+            <h5>Пица Алекс</h5>
+            <div class="ingredients">
+                моцарела, прошуто, печени чушки,<br> маслини и гъби
+            </div>
+            <div class="price">
+                12.00 лв
+            </div>
+        </div>
+        <div class="best-offers-box">
+            <img src="/images/pizza-1.jpg" alt="">
+            <h5>Пица Алекс</h5>
+            <div class="ingredients">
+                моцарела, прошуто, печени чушки,<br> маслини и гъби
+            </div>
+            <div class="price">
+                12.00 лв
+            </div>
+        </div>
+        <div class="best-offers-box">
+            <img src="/images/pizza-1.jpg" alt="">
+            <h5>Пица Алекс</h5>
+            <div class="ingredients">
+                моцарела, прошуто, печени чушки,<br> маслини и гъби
+            </div>
+            <div class="price">
+                12.00 лв
+            </div>
+        </div>
+        <div class="best-offers-box">
+            <img src="/images/pizza-1.jpg" alt="">
+            <h5>Пица Алекс</h5>
+            <div class="ingredients">
+                моцарела, прошуто, печени чушки,<br> маслини и гъби
+            </div>
+            <div class="price">
+                12.00 лв
+            </div>
+        </div>
+        <div class="best-offers-box">
+            <img src="/images/pizza-1.jpg" alt="">
+            <h5>Пица Алекс</h5>
+            <div class="ingredients">
+                моцарела, прошуто, печени чушки,<br> маслини и гъби
+            </div>
+            <div class="price">
+                12.00 лв
+            </div>
+        </div>
+    </div>
+    <!-- BEST OFFERS SECTION END -->
+
+    <!-- ORDER SECTION -->
+    <div class="order-section">
+        <p class="order-section-h-small">Поръчай за вкъщи</p>
+        <p class="order-section-h-big">0888 888 888</p>
+        <p class="order-section-h-small">ИЛИ</p>
+        <form action="" id="order-form">
+            <input type="text" placeholder="Име">
+            <input type="text" placeholder="Телефон">
+            <input type="text" placeholder="Адрес">
+            <textarea cols="22" rows="10" placeholder="Поръчка"></textarea>
+            <button>ПОРЪЧАЙ</button>
+        </form>
+    </div>
+    <!-- ORDER SECTION END-->
+
+    <!-- CONTACTS SECTION -->
+    <div class="contacts-section">
+        <p class="bold">Адрес</p>
+        <p>ул.Фантазия 75</p>
+        <p>гр. Пловдив</p>
+        <p class="bold">Работно време</p>
+        <p>От Понеделник до Неделя</p>
+        <p>От 9:00 до 21:00</p>
+    </div>
+    <!-- CONTACTS SECTION END -->
+
+    <!-- FOOTER ICONS -->
+    <div class="footer-icons">
+        <a href="" target="_blank">
+            <i class="fa-brands fa-facebook"></i>
+        </a>
+        <a href="" target="_blank">
+            <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a href="" target="_blank">
+            <i class="fa-brands fa-tiktok"></i>
+        </a>
+    </div>
+    <!-- FOOTER ICONS END -->
+
+    <!-- JS -->
+    <script>
+        function toggle(){
+            let nav = document.getElementById("nav");
+            
+            if(nav.style.display == 'block')
+            {
+                nav.style.display = 'none';
+            }
+            else{
+                nav.style.display = 'block';
+            }
+        }
+    </script>
+    <!-- JS END -->
+</body>
+</html>
